@@ -16,11 +16,11 @@ public class App {
     catch (NumberFormatException e) {
         System.out.println("Ошибка: введены некорректные символы!");
         return;
-    }
+             break;
+   }
     char operator = parts[1].charAt(0);
     switch (operator) {
         case '+':result = num1 + num2;
-            break;
             case '-':
             result = num1 - num2;
             break;
@@ -39,4 +39,6 @@ public class App {
     }
     System.out.println("Результат: " + result);            
     scanner.close();
-}    }
+}    
+}
+
