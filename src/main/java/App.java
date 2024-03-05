@@ -37,5 +37,6 @@ public class App {
             System.out.println("Ошибка: некорректная операция!");
             return;
     }
-    System.out.println("Результат: " + result);            scanner.close();
+    System.out.println("Результат: " + result);            
+    scanner.close();
 }    }
